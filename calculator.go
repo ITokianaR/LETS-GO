@@ -28,7 +28,7 @@ func main() {
   fmt.Print("Enter a number :")
   fmt.Scan(&num1)
 
-  fmt.Print("Choose an operator + / - *")
+  fmt.Print("Choose an operator + or / or - or *")
   fmt.Scan(&op)
 
   fmt.Print("Enter a number :")
