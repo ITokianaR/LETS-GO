@@ -8,7 +8,7 @@ func main() {
   var name string = "John" // first we declare a string variable
   var ptr *string // then we create a pointer variable to store the memory adress
 
-  ptr = &name // we assing the memory variable of "John" to the pointer variable
+  ptr = &name // we assign the memory variable of "John" to the pointer variable
 
   fmt.Println("The memory adress of", name, "is", ptr)
 }
