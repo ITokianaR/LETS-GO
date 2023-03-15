@@ -5,10 +5,10 @@ import (
 
 func main() {
   // to have a better understading of pointer
-  var name string = "John"
-  var ptr *string
+  var name string = "John" // first we declare a string variable
+  var ptr *string // then we create a pointer variable to store the memory adress
 
-  ptr = &name
+  ptr = &name // we assing the memory variable of "John" to the pointer variable
 
   fmt.Println("The memory adress of", name, "is", ptr)
 }
